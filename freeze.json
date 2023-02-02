@@ -6,6 +6,17 @@
         "python": "3.10.2"
     },
     "packages": {
+        "alabaster": {
+            "name": "alabaster",
+            "version": "0.7.13",
+            "file_name": "https://files.pythonhosted.org/packages/64/88/c7083fc61120ab661c5d0b82cb77079fc1429d3f913a456c1c82cf4658f7/alabaster-0.7.13-py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "1ee19aca801bbabb5ba3f5f258e4422dfa86f82f3e9cefb0859b283cdd7f62a3",
+            "imports": [
+                "alabaster"
+            ],
+            "depends": []
+        },
         "asciitree": {
             "name": "asciitree",
             "version": "0.3.3",
@@ -97,6 +108,19 @@
             "file_name": "autograd-tests.tar",
             "install_dir": "site",
             "sha256": "cdddd3c20d2e92326364e66a7dc972457087c02f420642581d09e7ab0b8264bd"
+        },
+        "babel": {
+            "name": "Babel",
+            "version": "2.11.0",
+            "file_name": "https://files.pythonhosted.org/packages/92/f7/86301a69926e11cd52f73396d169554d09b20b1723a040c2dcc1559ef588/Babel-2.11.0-py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "1ad3eca1c885218f6dce2ab67291178944f810a10a9b5f3cb8382a5a232b64fe",
+            "imports": [
+                "babel"
+            ],
+            "depends": [
+                "pytz"
+            ]
         },
         "backcall": {
             "name": "backcall",
@@ -228,6 +252,23 @@
                 "boost_histogram"
             ]
         },
+        "bqplot": {
+            "name": "bqplot",
+            "version": "0.12.36",
+            "file_name": "https://files.pythonhosted.org/packages/95/db/1c445abccd54fc1ae447440dc805ebdec7cf3eb8dee6c8f711797514cb8e/bqplot-0.12.36-py2.py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "d636ba9471d51dfb0b68d246ced6febdd7e4050cfadb755a16b8e22b8f019edf",
+            "imports": [
+                "bqplot"
+            ],
+            "depends": [
+                "ipywidgets",
+                "numpy",
+                "pandas",
+                "traitlets",
+                "traittypes"
+            ]
+        },
         "brotli": {
             "name": "brotli",
             "version": "1.0.9",
@@ -288,6 +329,17 @@
             "imports": [
                 "cftime"
             ]
+        },
+        "charset-normalizer": {
+            "name": "charset-normalizer",
+            "version": "3.0.1",
+            "file_name": "https://files.pythonhosted.org/packages/68/2b/02e9d6a98ddb73fa238d559a9edcc30b247b8dc4ee848b6184c936e99dc0/charset_normalizer-3.0.1-py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "7e189e2e1d3ed2f4aebabd2d5b0f931e883676e51c7624826e0a4e5fe8a0bf24",
+            "imports": [
+                "charset_normalizer"
+            ],
+            "depends": []
         },
         "clapack": {
             "name": "CLAPACK",
@@ -467,6 +519,56 @@
             "install_dir": "site",
             "sha256": "0da2fd68d0809953355755859f9d26b267bc125fc07f63b3b87fd322de84cd67"
         },
+        "dash": {
+            "name": "dash",
+            "version": "2.8.1",
+            "file_name": "https://files.pythonhosted.org/packages/d7/81/a25e05017f32c0edac691c0be1a2afa64f2a13693e5d4637233fc9bc92d3/dash-2.8.1-py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "3a9eea30f83733df1b7631fc5248eb87445e7458394558d784c91d072b7f41aa",
+            "imports": [
+                "dash"
+            ],
+            "depends": [
+                "dash-core-components",
+                "dash-html-components",
+                "dash-table",
+                "flask",
+                "plotly"
+            ]
+        },
+        "dash-core-components": {
+            "name": "dash-core-components",
+            "version": "2.0.0",
+            "file_name": "https://files.pythonhosted.org/packages/00/9e/a29f726e84e531a36d56cff187e61d8c96d2cc253c5bcef9a7695acb7e6a/dash_core_components-2.0.0-py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "52b8e8cce13b18d0802ee3acbc5e888cb1248a04968f962d63d070400af2e346",
+            "imports": [
+                "dash_core_components"
+            ],
+            "depends": []
+        },
+        "dash-html-components": {
+            "name": "dash-html-components",
+            "version": "2.0.0",
+            "file_name": "https://files.pythonhosted.org/packages/75/65/1b16b853844ef59b2742a7de74a598f376ac0ab581f0dcc34db294e5c90e/dash_html_components-2.0.0-py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "b42cc903713c9706af03b3f2548bda4be7307a7cf89b7d6eae3da872717d1b63",
+            "imports": [
+                "dash_html_components"
+            ],
+            "depends": []
+        },
+        "dash-table": {
+            "name": "dash-table",
+            "version": "5.0.0",
+            "file_name": "https://files.pythonhosted.org/packages/da/ce/43f77dc8e7bbad02a9f88d07bf794eaf68359df756a28bb9f2f78e255bb1/dash_table-5.0.0-py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "19036fa352bb1c11baf38068ec62d172f0515f73ca3276c79dee49b95ddc16c9",
+            "imports": [
+                "dash_table"
+            ],
+            "depends": []
+        },
         "decorator": {
             "name": "decorator",
             "version": "5.1.1",
@@ -517,14 +619,14 @@
         },
         "docutils": {
             "name": "docutils",
-            "version": "0.19",
-            "file_name": "docutils-0.19-py3-none-any.whl",
+            "version": "0.17.1",
+            "file_name": "https://files.pythonhosted.org/packages/4c/5e/6003a0d1f37725ec2ebd4046b657abb9372202655f96e76795dca8c0063c/docutils-0.17.1-py2.py3-none-any.whl",
             "install_dir": "site",
-            "sha256": "2654e80b774b7b37fac5a0332d4737017fd63dbd12ea2a8314e20ffd193f00bd",
-            "depends": [],
+            "sha256": "cf316c8370a737a022b72b56874f6602acf974a37a9fba42ec2876387549fc61",
             "imports": [
                 "docutils"
-            ]
+            ],
+            "depends": []
         },
         "exceptiongroup": {
             "name": "exceptiongroup",
@@ -559,6 +661,15 @@
             ],
             "depends": []
         },
+        "filelock": {
+            "name": "filelock",
+            "version": "3.9.0",
+            "file_name": "https://files.pythonhosted.org/packages/14/4c/b201d0292ca4e0950f0741212935eac9996f69cd66b92a3587e594999163/filelock-3.9.0-py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "f58d535af89bb9ad5cd4df046f741f8553a418c01a7856bf0d173bbc9f6bd16d",
+            "imports": [],
+            "depends": []
+        },
         "fiona": {
             "name": "fiona",
             "version": "1.8.22",
@@ -575,6 +686,22 @@
             ],
             "imports": [
                 "fiona"
+            ]
+        },
+        "flask": {
+            "name": "Flask",
+            "version": "2.2.2",
+            "file_name": "https://files.pythonhosted.org/packages/0f/43/15f4f9ab225b0b25352412e8daa3d0e3d135fcf5e127070c74c3632c8b4c/Flask-2.2.2-py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "b9c46cc36662a7949f34b52d8ec7bb59c0d74ba08ba6cb9ce9adc1d8676d9526",
+            "imports": [
+                "flask"
+            ],
+            "depends": [
+                "click",
+                "itsdangerous",
+                "jinja2",
+                "werkzeug"
             ]
         },
         "fonttools": {
@@ -824,6 +951,26 @@
                 "html5lib"
             ]
         },
+        "httpimport": {
+            "name": "httpimport",
+            "version": "1.3.0",
+            "file_name": "https://files.pythonhosted.org/packages/d1/c2/d10d02ebc2ed8799c8cdbb3ce42c364a2f84baeea8e653ab9b0b73c0807c/httpimport-1.3.0-py2.py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "2d78f0e8759016d61ac7994050d31b0e0d8c8c61b587a7d4b3cd33bd5fbdfd49",
+            "imports": [
+                "httpimport"
+            ],
+            "depends": []
+        },
+        "idna": {
+            "name": "idna",
+            "version": "3.4",
+            "file_name": "https://files.pythonhosted.org/packages/fc/34/3030de6f1370931b9dbb4dad48f6ab1015ab1d32447850b9fc94e60097be/idna-3.4-py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2",
+            "imports": [],
+            "depends": []
+        },
         "imageio": {
             "name": "imageio",
             "version": "2.22.4",
@@ -837,6 +984,17 @@
             "imports": [
                 "imageio"
             ]
+        },
+        "imagesize": {
+            "name": "imagesize",
+            "version": "1.4.1",
+            "file_name": "https://files.pythonhosted.org/packages/ff/62/85c4c919272577931d407be5ba5d71c20f0b616d31a0befe0ae45bb79abd/imagesize-1.4.1-py2.py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "0d8d18d08f840c19d0ee7ca1fd82490fdc3729b7ac93f49870406ddde8ef8d8b",
+            "imports": [
+                "imagesize"
+            ],
+            "depends": []
         },
         "iniconfig": {
             "name": "iniconfig",
@@ -879,6 +1037,34 @@
                 "stack-data",
                 "traitlets"
             ]
+        },
+        "ipywidgets": {
+            "name": "ipywidgets",
+            "version": "8.0.4",
+            "file_name": "https://files.pythonhosted.org/packages/f3/fc/bd076538811d63babf8ceea0ff3d8d024171569a47f5dba7757c5fd0462c/ipywidgets-8.0.4-py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "ebb195e743b16c3947fe8827190fb87b4d00979c0fbf685afe4d2c4927059fa1",
+            "imports": [
+                "ipywidgets"
+            ],
+            "depends": [
+                "ipykernel",
+                "ipython",
+                "jupyterlab-widgets",
+                "traitlets",
+                "widgetsnbextension"
+            ]
+        },
+        "itsdangerous": {
+            "name": "itsdangerous",
+            "version": "2.1.2",
+            "file_name": "https://files.pythonhosted.org/packages/68/5f/447e04e828f47465eeab35b5d408b7ebaaaee207f48b7136c5a7267a30ae/itsdangerous-2.1.2-py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "2c2349112351b88699d8d4b6b075022c0808887cb7ad10069318a8b0bc88db44",
+            "imports": [
+                "itsdangerous"
+            ],
+            "depends": []
         },
         "jedi": {
             "name": "jedi",
@@ -980,6 +1166,17 @@
                 "platformdirs",
                 "traitlets"
             ]
+        },
+        "jupyterlab-widgets": {
+            "name": "jupyterlab-widgets",
+            "version": "3.0.5",
+            "file_name": "https://files.pythonhosted.org/packages/df/82/4576cbc07ebace8c7734fe08b2c2f9123b7ebecd29e932a3b839b6bee2cb/jupyterlab_widgets-3.0.5-py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "a04a42e50231b355b7087e16a818f541e53589f7647144ea0344c4bf16f300e5",
+            "imports": [
+                "jupyterlab_widgets"
+            ],
+            "depends": []
         },
         "kiwisolver": {
             "name": "kiwisolver",
@@ -1296,6 +1493,17 @@
                 "traitlets"
             ]
         },
+        "nest-asyncio": {
+            "name": "nest-asyncio",
+            "version": "1.5.6",
+            "file_name": "https://files.pythonhosted.org/packages/e9/1a/6dd9ec31cfdb34cef8fea0055b593ee779a6f63c8e8038ad90d71b7f53c0/nest_asyncio-1.5.6-py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "b9a953fb40dceaa587d109609098db21900182b16440652454a146cffb06e8b8",
+            "imports": [
+                "nest_asyncio"
+            ],
+            "depends": []
+        },
         "networkx": {
             "name": "networkx",
             "version": "2.8.8",
@@ -1435,6 +1643,17 @@
             "file_name": "numpy-tests.tar",
             "install_dir": "site",
             "sha256": "9f737a8bbf2e71fdd861fc60147736dfff28c4ed6c7dbc7b5d1137096393e82a"
+        },
+        "oauthlib": {
+            "name": "oauthlib",
+            "version": "3.2.2",
+            "file_name": "https://files.pythonhosted.org/packages/7e/80/cab10959dc1faead58dc8384a781dfbf93cb4d33d50988f7a69f1b7c9bbe/oauthlib-3.2.2-py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "8139f29aac13e25d502680e9e19963e83f16838d48a0d71c287fe40e7067fbca",
+            "imports": [
+                "oauthlib"
+            ],
+            "depends": []
         },
         "opencv-python": {
             "name": "opencv-python",
@@ -2091,6 +2310,22 @@
             "install_dir": "site",
             "sha256": "09f47d11e178eff4c764737b68b1c62eed205d2f9d14a3d6b46a3568546e9085"
         },
+        "requests": {
+            "name": "requests",
+            "version": "2.28.2",
+            "file_name": "https://files.pythonhosted.org/packages/d2/f4/274d1dbe96b41cf4e0efb70cbced278ffd61b5c7bb70338b62af94ccb25b/requests-2.28.2-py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "64299f4909223da747622c030b781c0d7811e359c37124b4bd368fb8c6518baa",
+            "imports": [
+                "requests"
+            ],
+            "depends": [
+                "certifi",
+                "charset-normalizer",
+                "idna",
+                "urllib3"
+            ]
+        },
         "retrying": {
             "name": "retrying",
             "version": "1.3.4",
@@ -2214,6 +2449,19 @@
             "install_dir": "site",
             "sha256": "7673059e23b353fcf30efb397e2ad99818e3cc5b416744f1221495c733d905e2"
         },
+        "seaborn": {
+            "name": "seaborn",
+            "version": "0.12.2",
+            "file_name": "https://files.pythonhosted.org/packages/8f/2e/17bbb83fbf102687bb2aa3d808add39da820a7698159302a1a69bb82e01c/seaborn-0.12.2-py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "ebf15355a4dba46037dfd65b7350f014ceb1f13c05e814eda2c9f5fd731afc08",
+            "imports": [],
+            "depends": [
+                "matplotlib",
+                "numpy",
+                "pandas"
+            ]
+        },
         "setuptools": {
             "name": "setuptools",
             "version": "65.6.3",
@@ -2302,6 +2550,17 @@
                 "smart_open"
             ]
         },
+        "snowballstemmer": {
+            "name": "snowballstemmer",
+            "version": "2.2.0",
+            "file_name": "https://files.pythonhosted.org/packages/ed/dc/c02e01294f7265e63a7315fe086dd1df7dacb9f840a804da846b96d01b96/snowballstemmer-2.2.0-py2.py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "c8e1716e83cc398ae16824e5572ae04e0d9fc2c6b985fb0f900f5f0c96ecba1a",
+            "imports": [
+                "snowballstemmer"
+            ],
+            "depends": []
+        },
         "soupsieve": {
             "name": "soupsieve",
             "version": "2.3.2.post1",
@@ -2330,6 +2589,100 @@
             "imports": [
                 "sparseqr"
             ]
+        },
+        "sphinx": {
+            "name": "Sphinx",
+            "version": "4.3.2",
+            "file_name": "https://files.pythonhosted.org/packages/30/30/065cac95f6b55edf93756b5478a416b4d727480e901e94c2575e9ea38d99/Sphinx-4.3.2-py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "6a11ea5dd0bdb197f9c2abc2e0ce73e01340464feaece525e64036546d24c851",
+            "imports": [
+                "sphinx"
+            ],
+            "depends": [
+                "alabaster",
+                "babel",
+                "docutils",
+                "imagesize",
+                "jinja2",
+                "packaging",
+                "pygments",
+                "requests",
+                "setuptools",
+                "snowballstemmer",
+                "sphinxcontrib-applehelp",
+                "sphinxcontrib-devhelp",
+                "sphinxcontrib-htmlhelp",
+                "sphinxcontrib-jsmath",
+                "sphinxcontrib-qthelp",
+                "sphinxcontrib-serializinghtml"
+            ]
+        },
+        "sphinxcontrib-applehelp": {
+            "name": "sphinxcontrib-applehelp",
+            "version": "1.0.4",
+            "file_name": "https://files.pythonhosted.org/packages/06/c1/5e2cafbd03105ce50d8500f9b4e8a6e8d02e22d0475b574c3b3e9451a15f/sphinxcontrib_applehelp-1.0.4-py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "29d341f67fb0f6f586b23ad80e072c8e6ad0b48417db2bde114a4c9746feb228",
+            "imports": [
+                "sphinxcontrib"
+            ],
+            "depends": []
+        },
+        "sphinxcontrib-devhelp": {
+            "name": "sphinxcontrib-devhelp",
+            "version": "1.0.2",
+            "file_name": "https://files.pythonhosted.org/packages/c5/09/5de5ed43a521387f18bdf5f5af31d099605c992fd25372b2b9b825ce48ee/sphinxcontrib_devhelp-1.0.2-py2.py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "8165223f9a335cc1af7ffe1ed31d2871f325254c0423bc0c4c7cd1c1e4734a2e",
+            "imports": [
+                "sphinxcontrib"
+            ],
+            "depends": []
+        },
+        "sphinxcontrib-htmlhelp": {
+            "name": "sphinxcontrib-htmlhelp",
+            "version": "2.0.1",
+            "file_name": "https://files.pythonhosted.org/packages/6e/ee/a1f5e39046cbb5f8bc8fba87d1ddf1c6643fbc9194e58d26e606de4b9074/sphinxcontrib_htmlhelp-2.0.1-py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "c38cb46dccf316c79de6e5515e1770414b797162b23cd3d06e67020e1d2a6903",
+            "imports": [
+                "sphinxcontrib"
+            ],
+            "depends": []
+        },
+        "sphinxcontrib-jsmath": {
+            "name": "sphinxcontrib-jsmath",
+            "version": "1.0.1",
+            "file_name": "https://files.pythonhosted.org/packages/c2/42/4c8646762ee83602e3fb3fbe774c2fac12f317deb0b5dbeeedd2d3ba4b77/sphinxcontrib_jsmath-1.0.1-py2.py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "2ec2eaebfb78f3f2078e73666b1415417a116cc848b72e5172e596c871103178",
+            "imports": [
+                "sphinxcontrib"
+            ],
+            "depends": []
+        },
+        "sphinxcontrib-qthelp": {
+            "name": "sphinxcontrib-qthelp",
+            "version": "1.0.3",
+            "file_name": "https://files.pythonhosted.org/packages/2b/14/05f9206cf4e9cfca1afb5fd224c7cd434dcc3a433d6d9e4e0264d29c6cdb/sphinxcontrib_qthelp-1.0.3-py2.py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "bd9fc24bcb748a8d51fd4ecaade681350aa63009a347a8c14e637895444dfab6",
+            "imports": [
+                "sphinxcontrib"
+            ],
+            "depends": []
+        },
+        "sphinxcontrib-serializinghtml": {
+            "name": "sphinxcontrib-serializinghtml",
+            "version": "1.1.5",
+            "file_name": "https://files.pythonhosted.org/packages/c6/77/5464ec50dd0f1c1037e3c93249b040c8fc8078fdda97530eeb02424b6eea/sphinxcontrib_serializinghtml-1.1.5-py2.py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "352a9a00ae864471d3a7ead8d7d79f5fc0b57e8b3f95e9867eb9eb28999b92fd",
+            "imports": [
+                "sphinxcontrib"
+            ],
+            "depends": []
         },
         "sqlalchemy": {
             "name": "sqlalchemy",
@@ -2490,6 +2843,17 @@
             "install_dir": "site",
             "sha256": "74ae5a191e9a2f161018bf4728bd811b533ee96d0377638861e5b7ac3bbaa850"
         },
+        "tabulate": {
+            "name": "tabulate",
+            "version": "0.9.0",
+            "file_name": "https://files.pythonhosted.org/packages/40/44/4a5f08c96eb108af5cb50b41f76142f0afa346dfa99d5296fe7202a11854/tabulate-0.9.0-py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "024ca478df22e9340661486f85298cff5f6dcdba14f3813e8830015b9ed1948f",
+            "imports": [
+                "tabulate"
+            ],
+            "depends": []
+        },
         "tblib": {
             "name": "tblib",
             "version": "1.7.0",
@@ -2635,6 +2999,19 @@
             "install_dir": "site",
             "sha256": "b8092b3209eb695a08a1ac44edb5571c8c25187e6c115af0887480533d3ca486"
         },
+        "traittypes": {
+            "name": "traittypes",
+            "version": "0.2.1",
+            "file_name": "https://files.pythonhosted.org/packages/9c/d1/8d5bd662703cc1764d986f6908a608777305946fa634d34c470cd4a1e729/traittypes-0.2.1-py2.py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "1340af133810b6eee1a2eb2e988f862b0d12b6c2d16f282aaf3207b782134c2e",
+            "imports": [
+                "traittypes"
+            ],
+            "depends": [
+                "traitlets"
+            ]
+        },
         "tskit": {
             "name": "tskit",
             "version": "0.5.3",
@@ -2712,6 +3089,44 @@
             "install_dir": "site",
             "sha256": "cd3a83cf34cd726212bede28d195450fe46aef810eda3040d1f7c16903a99c4b"
         },
+        "urllib3": {
+            "name": "urllib3",
+            "version": "1.26.14",
+            "file_name": "https://files.pythonhosted.org/packages/fe/ca/466766e20b767ddb9b951202542310cba37ea5f2d792dae7589f1741af58/urllib3-1.26.14-py2.py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "75edcdc2f7d85b137124a6c3c9fc3933cdeaa12ecb9a6a959f22797a0feca7e1",
+            "imports": [
+                "urllib3"
+            ],
+            "depends": []
+        },
+        "viola": {
+            "name": "viola",
+            "version": "0.3.8",
+            "file_name": "https://files.pythonhosted.org/packages/76/13/62a5785eddb80789c7057f82f2a5af569b230e37f81dbb7a794aa887a74a/viola-0.3.8-py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "6875b1ded7433871979bf2b691a98fa039c8910a7ae75b239515087bbc0c8bd1",
+            "imports": [
+                "test",
+                "viola"
+            ],
+            "depends": []
+        },
+        "virtualenv": {
+            "name": "virtualenv",
+            "version": "20.17.1",
+            "file_name": "https://files.pythonhosted.org/packages/18/a2/7931d40ecb02b5236a34ac53770f2f6931e3082b7a7dafe915d892d749d6/virtualenv-20.17.1-py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "ce3b1684d6e1a20a3e5ed36795a97dfc6af29bc3970ca8dab93e11ac6094b3c4",
+            "imports": [
+                "virtualenv"
+            ],
+            "depends": [
+                "distlib",
+                "filelock",
+                "platformdirs"
+            ]
+        },
         "wcwidth": {
             "name": "wcwidth",
             "version": "0.2.6",
@@ -2733,6 +3148,28 @@
             "imports": [
                 "webencodings"
             ]
+        },
+        "werkzeug": {
+            "name": "Werkzeug",
+            "version": "2.2.2",
+            "file_name": "https://files.pythonhosted.org/packages/c8/27/be6ddbcf60115305205de79c29004a0c6bc53cec814f733467b1bb89386d/Werkzeug-2.2.2-py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "f979ab81f58d7318e064e99c4506445d60135ac5cd2e177a2de0089bfd4c9bd5",
+            "imports": [
+                "werkzeug"
+            ],
+            "depends": [
+                "markupsafe"
+            ]
+        },
+        "widgetsnbextension": {
+            "name": "widgetsnbextension",
+            "version": "4.0.2",
+            "file_name": "https://github.jonathanferrari.com/jupyterlite-demo/build/pypi/./widgetsnbextension-4.0.2-py3-none-any.whl",
+            "install_dir": "site",
+            "sha256": "45c2f3ed247e71a9d9a3e9e7adb5ff568c53b93a3c9dd821ba428010b7c9a7a5",
+            "imports": [],
+            "depends": []
         },
         "wordcloud": {
             "name": "wordcloud",
